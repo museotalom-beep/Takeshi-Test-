@@ -1,0 +1,12 @@
+{
+  "name": "campaign-arena",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 server.py",
+    "test": "node tests/engine.test.js",
+    "check": "node --check app.js && node --check engine.js",
+    "build": "python3 build.py"
+  }
+}
